@@ -66,11 +66,7 @@ form .display input{
     box-shadow: 1px;
     height: 100px;
 }
-form h1{
-    text-align: center;
-    color: white;
-    margin-bottom: -10px;
-}
+
 
 .last .equal{
     width: 145px;
@@ -101,8 +97,19 @@ form h1{
     
     form .display input {
         font-size: 30px;
-        height: 80px;
         width: 290px;
     }
 
+    .calculator form input {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+        color: #fff;
+        cursor: pointer;
+        margin: 8px;
+    }
+    .last .equal{
+        width: 100px;
+    }
+    
 }
